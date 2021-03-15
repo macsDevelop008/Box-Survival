@@ -543,14 +543,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.31670824
-        functionName: Hit
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.3241895
-        functionName: FootL
+        functionName: Hit_One
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -563,8 +556,8 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.88528675
-        functionName: FootR
+      - time: 0.54137933
+        functionName: Hit_Two
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

@@ -123,6 +123,66 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &109514484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109514485}
+  - component: {fileID: 109514486}
+  - component: {fileID: 109514487}
+  m_Layer: 0
+  m_Name: HitPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &109514485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109514484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.104, y: 1.185, z: 1.705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5639916806467524624}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109514486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109514484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7073aa57dcc838f47b5169bceebff071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: WarriorTwoSwots_Hit_2
+  _colliderHitPoint: {fileID: 109514487}
+--- !u!136 &109514487
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109514484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  m_Radius: 0.086536065
+  m_Height: 1.2145444
+  m_Direction: 2
+  m_Center: {x: 0.029124415, y: 0.00086019986, z: 0.10727232}
 --- !u!1 &134674843
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +372,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &770588023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770588024}
+  - component: {fileID: 770588025}
+  - component: {fileID: 770588026}
+  m_Layer: 0
+  m_Name: HitPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &770588024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770588023}
+  m_LocalRotation: {x: -0.07426527, y: 0.21818979, z: 0.016654702, w: 0.97293395}
+  m_LocalPosition: {x: -0.026, y: 1.697, z: 1.667}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5639916806467524624}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -8.73, y: 25.28, z: 0}
+--- !u!114 &770588025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770588023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7073aa57dcc838f47b5169bceebff071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _key: WarriorTwoSwots_Hit_1
+  _colliderHitPoint: {fileID: 770588026}
+--- !u!136 &770588026
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770588023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  m_Radius: 0.086536065
+  m_Height: 1.2145444
+  m_Direction: 2
+  m_Center: {x: 0.029124415, y: 0.00086019986, z: 0.10727232}
 --- !u!1 &772919650
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,12 +551,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5639916806467945968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.888, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5639916806467524612}
   - {fileID: 317164541509160057}
   - {fileID: 5639916806467524636}
+  - {fileID: 770588024}
+  - {fileID: 109514485}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2014,7 +2136,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5639916806467524624}
   - component: {fileID: 5639916806477346710}
+  - component: {fileID: 5639916806467945973}
   - component: {fileID: 5639916806467945969}
+  - component: {fileID: 5639916806467945971}
   m_Layer: 0
   m_Name: Guerrero_DosEspadas
   m_TagString: Untagged
@@ -2052,6 +2176,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5639916806467945971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639916806467945968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c5eb4dfc6ba6a4eb053aeebf6247bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hitPointsInformationArray:
+  - {fileID: 770588025}
+  - {fileID: 109514486}
 --- !u!1 &5639916806467945972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,6 +2207,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &5639916806467945973
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639916806467945968}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &5639916806467945974
 GameObject:
   m_ObjectHideFlags: 0

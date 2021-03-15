@@ -1,0 +1,1952 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'es' Physical Memory: 16274 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50268
+Successfully changed project path to: D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
+D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   
+    VRAM:     3955 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001454 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 126.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 3.280400 ms (FindLiveObjects: 0.304500 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.070700 ms  DeleteObjects: 0.837000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Guerreros/Guerrero_DosEspadas/Characters/Swordsman.FBX
+  artifactKey: Guid(e3942fec22e99384e9cee5aef64adec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/Guerrero_DosEspadas/Characters/Swordsman.FBX using Guid(e3942fec22e99384e9cee5aef64adec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2232027dd06e611f03bc2913de3f30c') in 0.340921 seconds
+  Import took 0.345298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.216401 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(4a1c9186401fbe347a7d6b89ef2613d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(4a1c9186401fbe347a7d6b89ef2613d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e02383078137918b1b13bf83a492a42') in 0.014065 seconds
+  Import took 0.017617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 2.669300 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.559300 ms  DeleteObjects: 0.807700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2428 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 3.401600 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.091400 ms  DeleteObjects: 0.991500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 34.963905 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(43a5ff933984a394e87a2659fe4415fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(43a5ff933984a394e87a2659fe4415fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a232f0db5fba08828dbbc14534a65850') in 0.008022 seconds
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.121699 seconds.
+  path: Assets/Scripts/Mecanic
+  artifactKey: Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mecanic using Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d2f01a25760360afba6be7551941f9') in 0.006065 seconds
+  Import took 0.009834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.038310 seconds.
+  path: Assets/Scripts/Mecha
+  artifactKey: Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mecha using Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9609297ddc24c27cd5334b6de5ae55') in 0.007301 seconds
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.578214 seconds.
+  path: Assets/Scripts/Mechanism
+  artifactKey: Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism using Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cec0b658b0be887fc30b69801b8d19') in 0.006245 seconds
+  Import took 0.009864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Scripts/Mechanism
+  artifactKey: Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism using Guid(67bc77c71c9ef1746a3f0581c919a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cec0b658b0be887fc30b69801b8d19') in 0.008266 seconds
+  Import took 0.011762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.147519 seconds.
+  path: Assets/Scripts/GUI
+  artifactKey: Guid(677b53469f1a9b64991508afce9d7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GUI using Guid(677b53469f1a9b64991508afce9d7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3456cb85e38acda317f2ec4d1b81f6b4') in 0.006033 seconds
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Scripts/GUI
+  artifactKey: Guid(677b53469f1a9b64991508afce9d7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GUI using Guid(677b53469f1a9b64991508afce9d7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3456cb85e38acda317f2ec4d1b81f6b4') in 0.001650 seconds
+  Import took 0.004323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.292215 seconds.
+  path: Assets/Scripts/JPA
+  artifactKey: Guid(f263e40b5fea5b64b81546532c99bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/JPA using Guid(f263e40b5fea5b64b81546532c99bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ef7d041db0ded8240280009efc8ad2') in 0.005850 seconds
+  Import took 0.009514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.062737 seconds.
+  path: Assets/Scripts/Mechanism/Enemys
+  artifactKey: Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemys using Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c805d6efec1909de4b5a217228ecbade') in 0.006267 seconds
+  Import took 0.026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.665005 seconds.
+  path: Assets/Scripts/Mechanism/Enemies
+  artifactKey: Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies using Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022077a7f5d6545734c94a7fc527b1c') in 0.005934 seconds
+  Import took 0.009621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Scripts/Mechanism/Enemies
+  artifactKey: Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies using Guid(329b7f83af837884489bf9da66247031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022077a7f5d6545734c94a7fc527b1c') in 0.001773 seconds
+  Import took 0.004845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.232106 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/Hit.cs
+  artifactKey: Guid(235e8fe4e19598b4bb38e303d7ed0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/Hit.cs using Guid(235e8fe4e19598b4bb38e303d7ed0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c644bb5fae64c748b1b2e7f7bb7af9') in 0.007195 seconds
+  Import took 0.011431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3002.
+Total: 2.727900 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.493200 ms  DeleteObjects: 0.915300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.995300 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.720500 ms  DeleteObjects: 0.957700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 279.090101 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/Hit.cs
+  artifactKey: Guid(235e8fe4e19598b4bb38e303d7ed0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/Hit.cs using Guid(235e8fe4e19598b4bb38e303d7ed0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ceb63e8de30e7bb8694ba6b4212788') in 0.008090 seconds
+  Import took 0.011513 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3008.
+Total: 2.787400 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.491900 ms  DeleteObjects: 0.976500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 2.733600 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.483600 ms  DeleteObjects: 0.963000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3014.
+Total: 2.985900 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.679900 ms  DeleteObjects: 0.985800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2845.199889 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/ScriptableObject
+  artifactKey: Guid(a8309a0b5c069e94bb14cb86a09c29f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/ScriptableObject using Guid(a8309a0b5c069e94bb14cb86a09c29f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef35303ddcc5d5367909301c456b956f') in 0.008412 seconds
+  Import took 0.012129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.134592 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/ScriptableObject/SO_HitPointInformation.cs
+  artifactKey: Guid(c3490b56e9f17f64aac0b37027026818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/ScriptableObject/SO_HitPointInformation.cs using Guid(c3490b56e9f17f64aac0b37027026818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07daeb2b5c82e8ebf144a8c8e48f01c') in 0.007908 seconds
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3018.
+Total: 3.653700 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.067500 ms  DeleteObjects: 1.183200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3021.
+Total: 2.756600 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.065200 ms MarkObjects: 1.493800 ms  DeleteObjects: 0.959700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 802.613438 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/ScriptableObject/SO_HitPointInformation.cs
+  artifactKey: Guid(c3490b56e9f17f64aac0b37027026818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/ScriptableObject/SO_HitPointInformation.cs using Guid(c3490b56e9f17f64aac0b37027026818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc71d0f4d14dee9bdc7a30a3b34fc780') in 0.004879 seconds
+  Import took 0.008270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.267013 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/ScriptableObject/HitPointinformation.asset
+  artifactKey: Guid(ece8f4cdf0f045743a7e049a5d87f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/ScriptableObject/HitPointinformation.asset using Guid(ece8f4cdf0f045743a7e049a5d87f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e2d28bd34d34d407c54bc682762c7e') in 0.015419 seconds
+  Import took 0.018971 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3024.
+Total: 3.259400 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.753600 ms  DeleteObjects: 1.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 3.177100 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.110400 ms MarkObjects: 1.704900 ms  DeleteObjects: 0.994300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3030.
+Total: 3.176800 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.655800 ms  DeleteObjects: 1.159700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3033.
+Total: 3.167900 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.783100 ms  DeleteObjects: 0.992300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3036.
+Total: 3.024300 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.705200 ms  DeleteObjects: 0.991900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.993300 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.595000 ms  DeleteObjects: 1.028500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 4958.645925 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPoint.cs
+  artifactKey: Guid(0c0475be554efde4b81c3c08596cddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPoint.cs using Guid(0c0475be554efde4b81c3c08596cddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe5051abcfa529198ce978f96de5e6') in 0.008409 seconds
+  Import took 0.011989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018226 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPoint.cs
+  artifactKey: Guid(0c0475be554efde4b81c3c08596cddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPoint.cs using Guid(0c0475be554efde4b81c3c08596cddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe5051abcfa529198ce978f96de5e6') in 0.002538 seconds
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.793506 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPointController.cs
+  artifactKey: Guid(bd99096f394d7b84d8f205e0c034993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPointController.cs using Guid(bd99096f394d7b84d8f205e0c034993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b4ed5b526614e53b369a384f925588') in 0.006705 seconds
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.658992 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs
+  artifactKey: Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs using Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db8fd467a4c5c2b3e8a5fbc1021e6a') in 0.007103 seconds
+  Import took 0.011323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1007.416400 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs
+  artifactKey: Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs using Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377e0475b1093782adf9bc20ae5c4211') in 0.009682 seconds
+  Import took 0.014392 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3042.
+Total: 2.806300 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.523000 ms  DeleteObjects: 0.976600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 877.647556 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs
+  artifactKey: Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/HitPointInformation.cs using Guid(7073aa57dcc838f47b5169bceebff071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cb1844a2be0073a8523827dc711806') in 0.007631 seconds
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3045.
+Total: 2.878100 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.070800 ms MarkObjects: 1.532400 ms  DeleteObjects: 1.028900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 2.784300 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.499100 ms  DeleteObjects: 0.986800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3051.
+Total: 2.899200 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.554400 ms  DeleteObjects: 0.987700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3966.237220 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/WarriorTwoSwods
+  artifactKey: Guid(04ea6d39e5876dc43a20a5531751e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/WarriorTwoSwods using Guid(04ea6d39e5876dc43a20a5531751e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e27e98d4890dc314af881f21114348d') in 0.009527 seconds
+  Import took 0.013736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.420970 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords
+  artifactKey: Guid(04ea6d39e5876dc43a20a5531751e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords using Guid(04ea6d39e5876dc43a20a5531751e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22925111b008abd94c55324f1598a601') in 0.006354 seconds
+  Import took 0.009965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.162393 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords/WarriorTwoSwordsHitPointsAttackController.cs
+  artifactKey: Guid(e0c5eb4dfc6ba6a4eb053aeebf6247bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords/WarriorTwoSwordsHitPointsAttackController.cs using Guid(e0c5eb4dfc6ba6a4eb053aeebf6247bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349fb77e87b4356b24041a2893832728') in 0.006863 seconds
+  Import took 0.011853 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.7 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3055.
+Total: 2.800500 ms (FindLiveObjects: 0.236400 ms CreateObjectMapping: 0.063800 ms MarkObjects: 1.502700 ms  DeleteObjects: 0.996600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3058.
+Total: 2.838800 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.532800 ms  DeleteObjects: 1.002900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 34.344034 seconds.
+  path: Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords/WarriorTwoSwordsHitPointsAttackController.cs
+  artifactKey: Guid(e0c5eb4dfc6ba6a4eb053aeebf6247bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mechanism/Enemies/WarriorTwoSwords/WarriorTwoSwordsHitPointsAttackController.cs using Guid(e0c5eb4dfc6ba6a4eb053aeebf6247bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c97a310ab16a13b898ad680fe41020') in 0.004581 seconds
+  Import took 0.008146 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3061.
+Total: 2.952200 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.063500 ms MarkObjects: 1.563400 ms  DeleteObjects: 1.038800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3064.
+Total: 3.563100 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.025500 ms  DeleteObjects: 1.161900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3067.
+Total: 2.878900 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.547100 ms  DeleteObjects: 1.018900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1183.365805 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat
+  artifactKey: Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat using Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7b6152185a7ae2f50c740226989481') in 0.908755 seconds
+  Import took 0.912965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat
+  artifactKey: Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat using Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8714e1007b71aa5996eb8dac8612557') in 0.048589 seconds
+  Import took 0.052041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat
+  artifactKey: Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat using Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac33f2d770f11bdaf9df248bd83f5590') in 0.018933 seconds
+  Import took 0.022568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat
+  artifactKey: Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat using Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0912c0ff279a2945b79952ae9a84f98') in 0.016257 seconds
+  Import took 0.019527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat
+  artifactKey: Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat using Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2689120d6eeae4e30c5dd160a6f30') in 0.261633 seconds
+  Import took 0.264662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat
+  artifactKey: Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat using Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ffedd51e86d0f0b261e0e8cd1fee66') in 0.015040 seconds
+  Import took 0.018078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat
+  artifactKey: Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat using Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da723ab3e77d94cfabef7e6bf2b1aa64') in 0.019168 seconds
+  Import took 0.022682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat
+  artifactKey: Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat using Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b4bdd0d78d9dd8c27e6f6fc6bb169f') in 0.019866 seconds
+  Import took 0.023417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat
+  artifactKey: Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat using Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e09fbde95b6ceccc0873593c696b2ee') in 0.324728 seconds
+  Import took 0.328350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat
+  artifactKey: Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat using Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274e58d88be9892107a72c4952f71139') in 0.296845 seconds
+  Import took 0.299896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat
+  artifactKey: Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat using Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41de690f5be09073dbf6a97a40d9de00') in 0.017151 seconds
+  Import took 0.020220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat
+  artifactKey: Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat using Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c46fa3d26c78eb0eb537ec0f49533') in 0.018502 seconds
+  Import took 0.021705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat
+  artifactKey: Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat using Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674f11aa0ac6f5ab1ea5a91f53392346') in 0.018872 seconds
+  Import took 0.022085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat
+  artifactKey: Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat using Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c744bfaa520c3842dda0810973554222') in 0.018463 seconds
+  Import took 0.021622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat
+  artifactKey: Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat using Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898a6472c1130f191ef0f1e2d2059aa0') in 0.017446 seconds
+  Import took 0.020590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat
+  artifactKey: Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat using Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a940a22bf120995d9b33464209efd0') in 0.019691 seconds
+  Import took 0.022988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat
+  artifactKey: Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat using Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9e5b80259caaff26f8f61aa659b049') in 0.018183 seconds
+  Import took 0.021304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat
+  artifactKey: Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat using Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964f89cf35ef9130a829df9073aae693') in 0.017665 seconds
+  Import took 0.020898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat
+  artifactKey: Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat using Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da885fc5c0d9aad4bc1076dd0f49f4') in 0.091440 seconds
+  Import took 0.094781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat
+  artifactKey: Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat using Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493cbab7a757f97d54ba4fc4a7b258f4') in 0.020791 seconds
+  Import took 0.024423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat
+  artifactKey: Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat using Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6d7a8ca94fd47effae99b21ffd61fc') in 0.039799 seconds
+  Import took 0.043280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat
+  artifactKey: Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat using Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad7cf53607c9e0a5bb2b60aa44a4623') in 0.018846 seconds
+  Import took 0.022382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat
+  artifactKey: Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat using Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162a53dd3446711f9cb532402cbd4c4f') in 0.018849 seconds
+  Import took 0.022173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat
+  artifactKey: Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat using Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e828b97c948c103f26d6000c2e6ecec3') in 0.017847 seconds
+  Import took 0.021041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat
+  artifactKey: Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat using Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de71d5148a92637dff97c332478618f') in 0.018189 seconds
+  Import took 0.021305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat
+  artifactKey: Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat using Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db5f02aac6d4e38b1d19db1da17455') in 0.018966 seconds
+  Import took 0.022162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat
+  artifactKey: Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat using Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5287de53ed56578ee8dbb21db91ef6') in 0.018991 seconds
+  Import took 0.022878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat
+  artifactKey: Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat using Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574618ee8a1a83dd823ba30703b34a81') in 0.267883 seconds
+  Import took 0.271330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat
+  artifactKey: Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat using Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77248b7d576233b0ccacc1bf1e34183b') in 0.017010 seconds
+  Import took 0.020129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat
+  artifactKey: Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat using Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00be2dd9304e63425dd0bf4c8de35aa') in 0.017132 seconds
+  Import took 0.020520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat
+  artifactKey: Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat using Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899c85ee7f6fdb9cea5e5efd840b3b16') in 0.014451 seconds
+  Import took 0.017566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat
+  artifactKey: Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat using Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc41b1d8988d496c62f6d28407fce20f') in 0.018381 seconds
+  Import took 0.021495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat
+  artifactKey: Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat using Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ddfca5c235f20fe5529d1074d73045') in 0.014336 seconds
+  Import took 0.017469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat
+  artifactKey: Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat using Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cdb762463d611cdb724d9f30d48a93') in 0.017452 seconds
+  Import took 0.020511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat
+  artifactKey: Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat using Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d74a3e26e9216aa01a7894abb19a4') in 0.017455 seconds
+  Import took 0.021003 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 2.971800 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.556600 ms  DeleteObjects: 0.996600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1926.758425 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat
+  artifactKey: Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat using Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2e88dbb7195195748a34fd42b328e2') in 0.213706 seconds
+  Import took 0.217559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat
+  artifactKey: Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat using Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067104d02d88fffff0da51697b6a59ab') in 0.019047 seconds
+  Import took 0.022190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat
+  artifactKey: Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat using Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837939517128adff105c33bd398b6c27') in 0.326527 seconds
+  Import took 0.330521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Skybox.mat
+  artifactKey: Guid(4e2d3501be4f343a1b4ff90412315bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Skybox.mat using Guid(4e2d3501be4f343a1b4ff90412315bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f539704246985ae053e3f22d11a8edb8') in 0.032632 seconds
+  Import took 0.036361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Banana.mat
+  artifactKey: Guid(89cc8193ed1304e478bbf3dd80ce0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Banana.mat using Guid(89cc8193ed1304e478bbf3dd80ce0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e593e2572bf91a26b4cc09d744f0b6') in 0.028002 seconds
+  Import took 0.031709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat
+  artifactKey: Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat using Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce514a61ad27a3de21c1f6127975bd26') in 0.313296 seconds
+  Import took 0.316525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane.mat
+  artifactKey: Guid(3b383092b935c4c0389580d16728c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane.mat using Guid(3b383092b935c4c0389580d16728c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225e112b675436ff788784a00d444b8e') in 0.021485 seconds
+  Import took 0.024897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat
+  artifactKey: Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat using Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0677db1d2558d1bc0af50872c4d6e9d3') in 0.018330 seconds
+  Import took 0.021514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat
+  artifactKey: Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat using Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97a8558f42586536b3940d3de2c62bb') in 0.285900 seconds
+  Import took 0.289521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat
+  artifactKey: Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat using Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef707472a841350abf8c29766e95582') in 0.326546 seconds
+  Import took 0.344625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-StrawberrySeeds.mat
+  artifactKey: Guid(932b9fff620b747189b533d3c7ac1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-StrawberrySeeds.mat using Guid(932b9fff620b747189b533d3c7ac1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5409d2d2e59d7f6d788946bb1a4e7e1') in 0.015056 seconds
+  Import took 0.018450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Vase.mat
+  artifactKey: Guid(139886173f09248739c97ba00a95b852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Vase.mat using Guid(139886173f09248739c97ba00a95b852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc161d7774b02793d0ca0e9a67783082') in 0.037735 seconds
+  Import took 0.041022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat
+  artifactKey: Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat using Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a638996bc5d8c6d4b12cf3c2936b0150') in 0.017576 seconds
+  Import took 0.020737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Strawberry.mat
+  artifactKey: Guid(fab778e119b8f4f47b65372606390d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Strawberry.mat using Guid(fab778e119b8f4f47b65372606390d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bb02122ab3b20df4ba04599dc9b099') in 0.344636 seconds
+  Import took 0.348358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-StrawberrySeeds.mat
+  artifactKey: Guid(d307ada0096114322b70030904107641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-StrawberrySeeds.mat using Guid(d307ada0096114322b70030904107641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b949bea7fb6418b4c040c73a741226ed') in 0.016001 seconds
+  Import took 0.019323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat
+  artifactKey: Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat using Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36834037eed2aca3b8f03a06c14d926') in 0.042116 seconds
+  Import took 0.045622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grenade.mat
+  artifactKey: Guid(dd9373dce9879486c834e9186bac8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grenade.mat using Guid(dd9373dce9879486c834e9186bac8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d735a8e2a369751acfdc9013bc430e') in 0.038455 seconds
+  Import took 0.041550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat
+  artifactKey: Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat using Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec39cc32ca2c5af7a9ceda8d75081045') in 0.475081 seconds
+  Import took 0.478812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat
+  artifactKey: Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat using Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368446c0589d20a1bf55845feb3832e5') in 0.018363 seconds
+  Import took 0.022327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat
+  artifactKey: Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat using Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc797c11b943e3453190b22b974e16') in 0.299119 seconds
+  Import took 0.302584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Stalks.mat
+  artifactKey: Guid(468ad9d33d1cb4b20b523d4c7cef35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Stalks.mat using Guid(468ad9d33d1cb4b20b523d4c7cef35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc762ea977174da5ba7028ca522baf3') in 0.021173 seconds
+  Import took 0.024813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat
+  artifactKey: Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat using Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c03ad1707356cfcd475a8b5424f224') in 0.034441 seconds
+  Import took 0.038104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat
+  artifactKey: Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat using Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea8f0e316d9040a1355ae4f7d5ce6e4') in 0.033178 seconds
+  Import took 0.036572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat
+  artifactKey: Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat using Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edb98c43cd05374309c3340b647edcd') in 0.018017 seconds
+  Import took 0.021643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grape.mat
+  artifactKey: Guid(40cfe4beac6d04876b6dc2d2c2c0c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grape.mat using Guid(40cfe4beac6d04876b6dc2d2c2c0c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c990bf2ff3079253dadf0ce758ef2d09') in 0.048586 seconds
+  Import took 0.052289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat
+  artifactKey: Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat using Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d616409edacd6f7fc0e4dffa680e6') in 0.038855 seconds
+  Import took 0.041957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear2.mat
+  artifactKey: Guid(499febfd1f6234475a1b87547405a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear2.mat using Guid(499febfd1f6234475a1b87547405a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64604a31bea7027b543e27ad3f1f0287') in 0.027320 seconds
+  Import took 0.031278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear2.mat
+  artifactKey: Guid(fcf69effea64a406e8f9bd446e0ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear2.mat using Guid(fcf69effea64a406e8f9bd446e0ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4ba270b7db84199d36daf08bb3e1a4') in 0.033913 seconds
+  Import took 0.037248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat
+  artifactKey: Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat using Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cc5c30b529ae349fbab0281039b42a') in 0.018157 seconds
+  Import took 0.021256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat
+  artifactKey: Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat using Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ea2be18fb24e79c71576ddfc04ec34') in 0.049178 seconds
+  Import took 0.052347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Stalks.mat
+  artifactKey: Guid(db756591547934cb684db2b56dd7e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Stalks.mat using Guid(db756591547934cb684db2b56dd7e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43c1bf2020c7ba8cc8b8efcb9e59108') in 0.014862 seconds
+  Import took 0.018112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat
+  artifactKey: Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat using Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2528a7e6a0e6b15f04391375c0863c6b') in 0.336276 seconds
+  Import took 0.339573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat
+  artifactKey: Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat using Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6619f950be268f15f72219cc92f0a6d') in 0.052774 seconds
+  Import took 0.073969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat
+  artifactKey: Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat using Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c773fa297d812af67ff158c7ff9070') in 0.297511 seconds
+  Import took 0.300945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat
+  artifactKey: Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat using Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abadac288bf9a8bfe6a1e71b2cb32ed3') in 0.060889 seconds
+  Import took 0.064441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat
+  artifactKey: Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat using Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bd155cab4da2332eadbb29b80fd093') in 0.290714 seconds
+  Import took 0.293872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat
+  artifactKey: Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat using Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbb85e6f47d1de2e3ae980e91d05d62') in 0.019230 seconds
+  Import took 0.022509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Leaves.mat
+  artifactKey: Guid(1f3e1a656407a4c6a930f9d596cf05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Leaves.mat using Guid(1f3e1a656407a4c6a930f9d596cf05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1529e1411ba77f23273af873c985ef29') in 0.039812 seconds
+  Import took 0.043136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Cherries.mat
+  artifactKey: Guid(9befce0e5bf1340cbbd0e869f14572d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Cherries.mat using Guid(9befce0e5bf1340cbbd0e869f14572d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d51e4c28572a1eca401bf2c35b8e223') in 0.038963 seconds
+  Import took 0.042036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane2.mat
+  artifactKey: Guid(0ed7196bab0834a1ea51bf6a7f6d83b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane2.mat using Guid(0ed7196bab0834a1ea51bf6a7f6d83b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988f95af7fe65a08845f1d3a47ced3dc') in 0.051451 seconds
+  Import took 0.054920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Apple.mat
+  artifactKey: Guid(d150221c5ae4748ee8e97f0d473b3c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Apple.mat using Guid(d150221c5ae4748ee8e97f0d473b3c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d7851137168981f123906ae4e9be38') in 0.023080 seconds
+  Import took 0.026171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane2.mat
+  artifactKey: Guid(c96662bcc1f4e4b049fe02a202094748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane2.mat using Guid(c96662bcc1f4e4b049fe02a202094748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73f59090e0d9bb7a211da65d2da6607') in 0.019569 seconds
+  Import took 0.023184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat
+  artifactKey: Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat using Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fa3cd5e22a2e447e98a2f1cb3cb1b2') in 0.018056 seconds
+  Import took 0.021684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Strawberry.mat
+  artifactKey: Guid(28618228308fc4bf897315cc66b66c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Strawberry.mat using Guid(28618228308fc4bf897315cc66b66c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b444ab686ebcdc59938f56bcf190835') in 0.039727 seconds
+  Import took 0.042976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear1.mat
+  artifactKey: Guid(71668e110ec8947c6a7c309c863a2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear1.mat using Guid(71668e110ec8947c6a7c309c863a2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f13f4a44f8fa93072e011693a6a9cc0') in 0.038604 seconds
+  Import took 0.041716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane.mat
+  artifactKey: Guid(56ac6a612a2e94edd94c3bdb140c66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane.mat using Guid(56ac6a612a2e94edd94c3bdb140c66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c15f63be458729864949b1f76e3c88d') in 0.036619 seconds
+  Import took 0.040238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat
+  artifactKey: Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat using Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b642eaadc9f5e30ca83b01497fdfbcf') in 0.017343 seconds
+  Import took 0.020592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat
+  artifactKey: Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat using Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0fef893bf0a878408270313b8f272c') in 0.294425 seconds
+  Import took 0.297699 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 3.065500 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.677200 ms  DeleteObjects: 1.045100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 3.212000 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.152600 ms MarkObjects: 1.672100 ms  DeleteObjects: 1.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 369.179970 seconds.
+  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Swordsman@Attack1.FBX
+  artifactKey: Guid(388866d801cf0f34daa7a600517209b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Swordsman@Attack1.FBX using Guid(388866d801cf0f34daa7a600517209b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed27eb87cc1f137e6c3148b074bd7ed') in 0.040859 seconds
+  Import took 0.044637 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3184.
+Total: 2.950500 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.631800 ms  DeleteObjects: 0.988800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.9 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3187.
+Total: 3.682500 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.067400 ms MarkObjects: 2.194500 ms  DeleteObjects: 1.129400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 93.585871 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat
+  artifactKey: Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat using Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43239ed46f4f313c35d4661286374e2b') in 0.161744 seconds
+  Import took 0.165652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grape.mat
+  artifactKey: Guid(e114049ae5b434afeb1869bbb42a7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grape.mat using Guid(e114049ae5b434afeb1869bbb42a7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f6b7bb10decec3d7d27e746f37ac8d') in 0.018164 seconds
+  Import took 0.021382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grenade.mat
+  artifactKey: Guid(a9c62cefbbbbf44fe901614f6acf2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grenade.mat using Guid(a9c62cefbbbbf44fe901614f6acf2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea87c535d772363fd609cb9e52acaf1') in 0.017614 seconds
+  Import took 0.020804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Cherries.mat
+  artifactKey: Guid(743e8405812a049669d4446bdc64d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Cherries.mat using Guid(743e8405812a049669d4446bdc64d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2554d45fbb158bdd399cdc9c2fd0c4') in 0.017873 seconds
+  Import took 0.021013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Banana.mat
+  artifactKey: Guid(8d96ad0a0975345709ff14ef8dcdfba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Banana.mat using Guid(8d96ad0a0975345709ff14ef8dcdfba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa5dbaf6c66fad79afc52af27a9e781') in 0.018193 seconds
+  Import took 0.021490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear1.mat
+  artifactKey: Guid(204c5c8ab438f4cc78a924c1db1a4863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear1.mat using Guid(204c5c8ab438f4cc78a924c1db1a4863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9f996a83bac086895a389ec44533a4') in 0.017507 seconds
+  Import took 0.020770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Leaves.mat
+  artifactKey: Guid(7607e0f4806a542f4b101832152df31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Leaves.mat using Guid(7607e0f4806a542f4b101832152df31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8e9c5258be2a7866dffc861a2eb3af') in 0.018553 seconds
+  Import took 0.021694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.131131 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear2.mat
+  artifactKey: Guid(c2f3b28d60c26490580c3f9a49e0011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear2.mat using Guid(c2f3b28d60c26490580c3f9a49e0011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c4e21109f6854bb35d022c5071155f') in 0.018542 seconds
+  Import took 0.022145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Strawberry.mat
+  artifactKey: Guid(5e6f1d01380b64b81a5a870bdfa3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Strawberry.mat using Guid(5e6f1d01380b64b81a5a870bdfa3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ba3d1f45169e4c240c067ecfcdbdfa') in 0.017164 seconds
+  Import took 0.020373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Stalks.mat
+  artifactKey: Guid(3ff83c8cf8e2842d6b184dd1ea87876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Stalks.mat using Guid(3ff83c8cf8e2842d6b184dd1ea87876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360f1ffaf9e082c9390503424472069d') in 0.015087 seconds
+  Import took 0.018286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Skybox.mat
+  artifactKey: Guid(7bbd6567f57f743be9da5759fd15265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Skybox.mat using Guid(7bbd6567f57f743be9da5759fd15265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9490b727ac7ff138cbb7c77a431a5e') in 0.018864 seconds
+  Import took 0.022046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Vase.mat
+  artifactKey: Guid(108a8e17d95634cf88efd881399aec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Vase.mat using Guid(108a8e17d95634cf88efd881399aec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee1260ec40e3cbebb313bcd283c06ed') in 0.018378 seconds
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-StrawberrySeeds.mat
+  artifactKey: Guid(bbd60ba8bffed4434b33f9573856e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-StrawberrySeeds.mat using Guid(bbd60ba8bffed4434b33f9573856e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcdc48f69fcd25074262fbf22c936fb') in 0.014324 seconds
+  Import took 0.017602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane2.mat
+  artifactKey: Guid(57ffdc651efce4908b6b899ca9c92c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane2.mat using Guid(57ffdc651efce4908b6b899ca9c92c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547a76473372ab54f09b1c9f21113f49') in 0.017952 seconds
+  Import took 0.021162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane.mat
+  artifactKey: Guid(dbceb692747184fdf963852db77f004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane.mat using Guid(dbceb692747184fdf963852db77f004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0d751b9b3a9d6ca69bc5635ae03875') in 0.017698 seconds
+  Import took 0.020901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081145 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-Skybox.mat
+  artifactKey: Guid(356f19771c24e4858addfa35ce901350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-Skybox.mat using Guid(356f19771c24e4858addfa35ce901350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186325600ca9bdaf02d12e1049cfb3cd') in 0.016592 seconds
+  Import took 0.020129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Color1.mat
+  artifactKey: Guid(075b091c055244b25909a4a0d78a06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Color1.mat using Guid(075b091c055244b25909a4a0d78a06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b83ce693922237237401adf19980bd') in 0.016410 seconds
+  Import took 0.019520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-TwoColor-Color2.mat
+  artifactKey: Guid(12339481701964b51aea3b72f1304c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-TwoColor-Color2.mat using Guid(12339481701964b51aea3b72f1304c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e827990b9ca4913f200dad3da81020') in 0.019843 seconds
+  Import took 0.022909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-TwoColor-Color3.mat
+  artifactKey: Guid(4a8af987ac47c41b18c4b00d82afc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-TwoColor-Color3.mat using Guid(4a8af987ac47c41b18c4b00d82afc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52240b054e91f2fcd4274e8a5e11cc01') in 0.020986 seconds
+  Import took 0.024077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Skybox.mat
+  artifactKey: Guid(d73d521995c70408b822a65d436df1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Skybox.mat using Guid(d73d521995c70408b822a65d436df1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83076127969f3fe15f6c4c7254fe50be') in 0.015842 seconds
+  Import took 0.018935 seconds .
+
