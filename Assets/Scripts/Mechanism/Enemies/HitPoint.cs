@@ -14,13 +14,6 @@ public class HitPoint : MonoBehaviour
     void Awake() 
     {   
         convertListingToDictionary();
-        print("Prueba Herencia");
-    }
-
-    //Return Dictionary of Colliders HitPoints
-    public Dictionary<string, Collider> GetDictionaryHitpoints()
-    {
-        return _hitPointsInformationDictionary;
     }
 
     //Convert array to Dictionary

@@ -7,7 +7,7 @@ using UnityEngine;
 public class WarriorTwoSwordsHitPointsAttackController : HitPoint
 {
     //Time activating HitColliders
-    public const float TIME_OF_LIFE_HIT_COLLIDERS = 1.0f;
+    public const float TIME_OF_LIFE_HIT_COLLIDERS = 0.65f;
 
 
     //All HitCollisions - Activate after a while deactivate

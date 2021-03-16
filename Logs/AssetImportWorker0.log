@@ -15,11 +15,11 @@ D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51871
+49919
 Successfully changed project path to: D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
 D:/TRABAJO/PROYECTOS - UNITY/PRACTICAS/Box-Survival
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,31 +35,31 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001683 seconds.
+Registered in 0.001646 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
+- Completed reload, in  1.316 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000746 seconds.
+Registered in 0.001015 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
+- Completed reload, in  0.815 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -69,135 +69,143 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 second
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.3 MB.
-System memory in use after: 126.6 MB.
+System memory in use before: 128.8 MB.
+System memory in use after: 127.1 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 2.666400 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.516200 ms  DeleteObjects: 0.804900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Guerreros/Guerrero_DosEspadas/AnimatorController_Guerrero_DosEspadas.controller
-  artifactKey: Guid(c5cfc5fcd91cce642b79b30d16f4f421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/AnimatorController_Guerrero_DosEspadas.controller using Guid(c5cfc5fcd91cce642b79b30d16f4f421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee76f58e4c04139171978ff3e96e6d02') in 0.032976 seconds
-  Import took 0.036527 seconds .
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2948.
+Total: 2.933400 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.664300 ms  DeleteObjects: 0.846500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 491.939985 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim
-  artifactKey: Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim using Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4626bfab29080f103d38650029367f') in 0.026142 seconds
-  Import took 0.029983 seconds .
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Hit.anim
+  artifactKey: Guid(dd1391606690d4f4eb706ca5fe46abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Hit.anim using Guid(dd1391606690d4f4eb706ca5fe46abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c586861bf31c8159cb209f3bf9d36ac5') in 0.031567 seconds
+  Import took 0.035227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004611 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim
-  artifactKey: Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim using Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4626bfab29080f103d38650029367f') in 0.018997 seconds
-  Import took 0.024112 seconds .
+  Time since last request: 17.625086 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Skill.anim
+  artifactKey: Guid(9e6443ea8115e084da59da5b1c4f9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Skill.anim using Guid(9e6443ea8115e084da59da5b1c4f9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38bb3a5789a210f7a10c9c19b46907') in 0.034908 seconds
+  Import took 0.038472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.101269 seconds.
+  path: Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1
+  artifactKey: Guid(e8f8bfa4c2dc65a4d96292a935bd435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1 using Guid(e8f8bfa4c2dc65a4d96292a935bd435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb31a848c3fb13182b241f451ac12a') in 0.006272 seconds
+  Import took 0.010105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023616 seconds.
+  path: Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1
+  artifactKey: Guid(e8f8bfa4c2dc65a4d96292a935bd435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1 using Guid(e8f8bfa4c2dc65a4d96292a935bd435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb31a848c3fb13182b241f451ac12a') in 0.001862 seconds
+  Import took 0.005161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831636 seconds.
+  path: Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1/Models_humanoid
+  artifactKey: Guid(e3e00ad44ab8b6849868bd9aa4865028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_Oriental Fantasy Character - Berserker Grade 0_v1.1/Models_humanoid using Guid(e3e00ad44ab8b6849868bd9aa4865028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0989b5aa6a6e320f6b9c7a655c8c70ac') in 0.005620 seconds
+  Import took 0.009138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.897286 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/Berserk_walk_01_hu.fbx
+  artifactKey: Guid(afc93a8f4d3e1c64fa9dd8be5a7e9b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/Berserk_walk_01_hu.fbx using Guid(afc93a8f4d3e1c64fa9dd8be5a7e9b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f06463f96015be9bec91dde6fa87dc') in 0.392230 seconds
+  Import took 0.397202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.123606 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/Berserk_walk_01_hu.anim
+  artifactKey: Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/Berserk_walk_01_hu.anim using Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d25f3a7e1ac646937cc69b66f34d970') in 0.008594 seconds
+  Import took 0.013172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.368846 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Run.anim
+  artifactKey: Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Run.anim using Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb55f2b69b7c66b713d75a50a940fc58') in 0.011192 seconds
+  Import took 0.014911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.764261 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Idle.anim
+  artifactKey: Guid(29dfcd9ea632de24ebec439a30ceda5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Idle.anim using Guid(29dfcd9ea632de24ebec439a30ceda5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3037f8a83721c9e2e7979bc7ce13f5d4') in 0.013170 seconds
+  Import took 0.016934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.215398 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Run.anim
+  artifactKey: Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Run.anim using Guid(4606ccbfba48f0c49b5e16a39ba91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645836e65cc62ccc7b79eb261ac95e94') in 0.007411 seconds
+  Import took 0.011057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.088582 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b2c254116ac11544da68bf3b7e5c27') in 0.028003 seconds
+  Import took 0.031672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.887137 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaceff4f950f17a6aefda5d8d119a23') in 0.045880 seconds
+  Import took 0.049620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.679303 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8792c731a19ddaed8f5c5ba239dcdf9') in 0.045802 seconds
+  Import took 0.049844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.927914 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7327578710be176f009602826db86393') in 0.046295 seconds
+  Import took 0.050387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.904364 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f52fda3bc0eb2581716396779e7b1e4') in 0.046094 seconds
+  Import took 0.049899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.060538 seconds.
+  path: Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller
+  artifactKey: Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/AnimationController_MainCharacter.controller using Guid(1530ae97c8be87844a12ade3524795d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a1a9999cf491e6ceebf16ff38f9430') in 0.046886 seconds
+  Import took 0.051158 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.4 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2949.
-Total: 2.552500 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.404200 ms  DeleteObjects: 0.864700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 529.818803 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Idle.anim
-  artifactKey: Guid(3f9418581a65cfc468a5e2d5facadc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Idle.anim using Guid(3f9418581a65cfc468a5e2d5facadc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9330bdd3293fa383e34a09ecebb4c3') in 0.067340 seconds
-  Import took 0.071030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.695864 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Run.anim
-  artifactKey: Guid(b5e56344479bb994581dc80e32414f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Run.anim using Guid(b5e56344479bb994581dc80e32414f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725801af05e0db9b367c3f0904d7da7f') in 0.015095 seconds
-  Import took 0.023854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002107 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Run.anim
-  artifactKey: Guid(b5e56344479bb994581dc80e32414f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Run.anim using Guid(b5e56344479bb994581dc80e32414f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725801af05e0db9b367c3f0904d7da7f') in 0.010295 seconds
-  Import took 0.013563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.195020 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Idle 1.anim
-  artifactKey: Guid(e3f793301164d37409780018bf049ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Idle 1.anim using Guid(e3f793301164d37409780018bf049ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b423fd75eab6c3dcf1ce8f1e853bbf') in 0.057989 seconds
-  Import took 0.061611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.229588 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Dead.anim
-  artifactKey: Guid(e3f793301164d37409780018bf049ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Dead.anim using Guid(e3f793301164d37409780018bf049ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455a381846282231e4a82987d0f51633') in 0.057971 seconds
-  Import took 0.081948 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000906 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.4 MB.
-System memory in use after: 121.8 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2952.
-Total: 2.810000 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.591600 ms  DeleteObjects: 0.904800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000975 seconds.
+Registered in 0.001284 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
@@ -206,64 +214,91 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
+- Completed reload, in  0.863 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.5 MB.
-System memory in use after: 121.8 MB.
+System memory in use before: 143.5 MB.
+System memory in use after: 141.9 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2955.
-Total: 3.047100 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.764000 ms  DeleteObjects: 0.956300 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3033.
+Total: 4.019900 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.413000 ms  DeleteObjects: 1.142700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 261.434235 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim
-  artifactKey: Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim using Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f63e61749e8433fa02362e5ae58e868') in 0.031629 seconds
-  Import took 0.035434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001757 seconds.
-  path: Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim
-  artifactKey: Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Guerreros/Guerrero_DosEspadas/Animations/Attack1.anim using Guid(6d0b8811feae62c4c9d3b1a71cd80f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f63e61749e8433fa02362e5ae58e868') in 0.019374 seconds
-  Import took 0.022659 seconds .
+  Time since last request: 112.707235 seconds.
+  path: Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Die.anim
+  artifactKey: Guid(8517f0e8f2521614eb7245bc95e808b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/Animaciones/MainCharacter_Die.anim using Guid(8517f0e8f2521614eb7245bc95e808b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546002bea006cbe99a8a4fc17ea519f2') in 0.031902 seconds
+  Import took 0.036066 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000846 seconds.
+Registered in 0.000940 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.760 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.5 MB.
-System memory in use after: 121.8 MB.
+System memory in use before: 143.5 MB.
+System memory in use after: 141.9 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2958.
-Total: 2.890000 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.617100 ms  DeleteObjects: 0.957900 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3036.
+Total: 3.293100 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.924200 ms  DeleteObjects: 1.032200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 144.518888 seconds.
+  path: Assets/Guerreros/MainCharacter/MainCharacter.prefab
+  artifactKey: Guid(1d3583a1eeeeefb4ab34b77e6a011f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guerreros/MainCharacter/MainCharacter.prefab using Guid(1d3583a1eeeeefb4ab34b77e6a011f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6882386920f465671bc772cd38d716') in 0.206033 seconds
+  Import took 0.210767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.7 MB.
+System memory in use after: 142.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3075.
+Total: 2.815600 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.526800 ms  DeleteObjects: 0.976900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
