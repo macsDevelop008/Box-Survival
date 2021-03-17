@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseMap:
-        m_Texture: {fileID: 2800000, guid: 062db1959aabc4afb95dd37cf1c09dd6, type: 3}
+        m_Texture: {fileID: 2800000, guid: f869cf237523e4f1e82bf7189f75d5f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -79,22 +79,22 @@ Material:
     - _CameraDistanceFadeClose: 0
     - _CameraDistanceFadeFar: 10
     - _ColorMode: 0
-    - _CrestSharpness: 0.1
+    - _CrestSharpness: 0.044
     - _CrestSize: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _Depth: 100
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FadeDistance: 0.16
-    - _FoamAmount: 0.06
-    - _FoamDepth: 0.47
+    - _FadeDistance: 0
+    - _FoamAmount: 0
+    - _FoamDepth: 0.59
     - _FoamDirection: -0.12
     - _FoamFromTexture: 1
     - _FoamMode: 2
     - _FoamNoiseAmount: 1
     - _FoamProcedural: 1
-    - _FoamScale: 0.29
+    - _FoamScale: 2.51
     - _FoamSharpness: 0.88
     - _FoamSpeed: 0.26
     - _FoamStretchX: 1
@@ -124,8 +124,8 @@ Material:
     - _Surface: 0
     - _UvFadeX: 0.1
     - _UvFadeY: 0.1
-    - _WaterClearness: 0.083
-    - _WaterDepth: 5.27
+    - _WaterClearness: 0.154
+    - _WaterDepth: 11.7
     - _WaveAmplitude: 0.25
     - _WaveDirection: 0
     - _WaveFrequency: 1
