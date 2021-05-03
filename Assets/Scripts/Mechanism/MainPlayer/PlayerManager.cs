@@ -15,6 +15,7 @@ public class PlayerManager : MonoBehaviour
     public Rigidbody _rigidbody { get; set; }
     public Animator _animator { get; set; }
 
+
     [Header("Movimiento")]
     [SerializeField] float _velocidadMovimiento;
 
@@ -22,8 +23,11 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] float _velocidadRotacion;
     public bool _permanecerRotacion { get; set; }
 
-    [Header("Daño Por Disparo")]
+    [Header("Propiedades Disparo")]
     [SerializeField] float _dañoPorDisparo;
+    [SerializeField] float _tiempoEntreDisparos;
+    [SerializeField] float _rangoDisparo;
+    public bool Attack { get; set; }
 
     [Header("Raycast")]
     [Header("Calculo Movimiento")]
@@ -37,13 +41,15 @@ public class PlayerManager : MonoBehaviour
     //Rotacion
     public float VelocidadRotacion { get { return _velocidadRotacion; } set { _velocidadRotacion = value; } }
 
-    //Daño por disparo
-    public float DañoPorDiaparo { get { return _dañoPorDisparo; } set { _dañoPorDisparo = value; } }
-
     //Raycast
     //Calculo Movimiento
     public float RestriccionCalculomovimientoDistancia{ get { return _restriccionMovimiendoDistancia; } set { _restriccionMovimiendoDistancia = value; } }
     public string RestriccionCalculomovimientoTagString { get { return _restriccionMovimiendoTagString; } set { _restriccionMovimiendoTagString = value; } }
+
+    //Propiedades Disparo
+    public float DañoPorDisparo { get { return _dañoPorDisparo; } set { _dañoPorDisparo = value; } }
+    public float TiempoEntreDisparos { get { return _tiempoEntreDisparos; } set { _tiempoEntreDisparos = value; } }
+    public float RangoDisparo { get { return _rangoDisparo; } set { _rangoDisparo = value; } }
 
     private void Awake()
     {

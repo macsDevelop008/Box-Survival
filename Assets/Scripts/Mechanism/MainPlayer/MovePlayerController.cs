@@ -7,7 +7,11 @@ public class MovePlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Move();
+        if (GameManager._shared.EstadoJuego == EstadoJuego.InGame) 
+        {
+            Move();
+        }
+        
     }
 
     private void Move()
