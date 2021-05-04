@@ -5742,6 +5742,7 @@ GameObject:
   - component: {fileID: 1102705925436396197}
   - component: {fileID: 4560286343225379557}
   - component: {fileID: 785205996}
+  - component: {fileID: 1897433566}
   m_Layer: 7
   m_Name: EnemyZombie
   m_TagString: Enemy
@@ -5823,6 +5824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _estado: 0
   "_da\xF1o": 20
+  _vidaMaxima: 100
 --- !u!114 &2205486784894845991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5966,6 +5968,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1897433566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266591964514598370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5ac76573b2c8c40a2e96c9fa60327a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particulasVFX: {fileID: 1704293237278360146}
 --- !u!1 &3266951479411328436
 GameObject:
   m_ObjectHideFlags: 0

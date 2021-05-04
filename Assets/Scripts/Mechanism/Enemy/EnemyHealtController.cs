@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyHealtController : MonoBehaviour
 {
-    [SerializeField] float _vidaActual;
+    float _vidaActual;
+    [SerializeField] GameObject _particulasVFX;
 
     private void Start()
     {
@@ -13,17 +14,28 @@ public class EnemyHealtController : MonoBehaviour
 
     public void SetHealt(float daño) 
     {
-        _vidaActual -= daño;
-
-        if (_vidaActual <= 0.0f) 
+        if (this.GetComponent<EnemyController>().Estado == EstadoEnemigo.LIFE) 
         {
-            Dead();
+            _vidaActual -= daño;
+
+            if (_vidaActual <= 0.0f)
+            {
+                Dead();
+            }
         }
     }
     
     public void Dead() 
     {
         this.GetComponent<EnemyController>().Estado = EstadoEnemigo.DIE;
+
+        this.GetComponent<Collider>().enabled = false;
+
+        //Sangre particulas
+        _particulasVFX.SetActive(true);
+
+        //Score
+        HUDEventos._shared.Score(this.GetComponent<EnemyController>().PuntosAlMorir);
 
         //Animacion
         //Desaparecer bajo el suelo
@@ -38,7 +50,7 @@ public class EnemyHealtController : MonoBehaviour
 
         this.transform.position = Vector3.MoveTowards(
             this.transform.position
-            , new Vector3(this.transform.position.x, this.transform.position.y - 5.0f, this.transform.position.z)
+            , new Vector3(this.transform.position.x, this.transform.position.y - 25.0f, this.transform.position.z)
             , 5.0f);
         yield return new WaitForSeconds(1.5f);
 

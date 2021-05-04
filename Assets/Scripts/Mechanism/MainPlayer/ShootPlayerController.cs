@@ -68,13 +68,18 @@ public class ShootPlayerController : MonoBehaviour
         _shootRay.direction = _objectShoot.transform.forward;
 
         //Si el rayó chocó con algun objeto con esta mascara
-        if (Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_1) ||
-            Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_2))
-        {
-            //Verificar si es un enemigo layer y bajarle vida, animacion, etc
-            
+        if (Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_1, QueryTriggerInteraction.Ignore) ||
+            Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_2, QueryTriggerInteraction.Ignore))
+        {                   
             //Ajusta tamaño del lineRender con la posicion que chocó
             _lineRederShoot.SetPosition(1, _hitShoot.point);
+
+            //Si es un enemigo, bajarle vida
+            if (_hitShoot.collider.tag.Equals("Enemy")) 
+            {
+                _hitShoot.collider.gameObject.GetComponent<EnemyHealtController>().
+                    SetHealt(_dañoPorDisparo);
+            }
         }
         else 
         {

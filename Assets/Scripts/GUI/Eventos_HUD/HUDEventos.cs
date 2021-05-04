@@ -1,18 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class HUDEventos : MonoBehaviour
 {
+    public static HUDEventos _shared;
+
     int _contadorAttack;
     [SerializeField] Button _btnAttack;
     ColorBlock _colorBlockAttack;
 
+    //Score
+    float ContadorScore { get; set; }
+    [SerializeField] TextMeshProUGUI _scoreTXT;
+
+
+    private void Awake()
+    {
+        _shared = this;
+    }
     private void Start()
     {
         _contadorAttack = 0;
         _colorBlockAttack = _btnAttack.colors;
+        Score(0);
     }
 
     public void JoystickRotationController_Up() 
@@ -25,6 +38,11 @@ public class HUDEventos : MonoBehaviour
         PlayerManager._shared._permanecerRotacion = true;
     }
 
+    public void Score(float n) 
+    {
+        ContadorScore += n;
+        _scoreTXT.text = ContadorScore.ToString();
+    }
 
     public void Attack() 
     {

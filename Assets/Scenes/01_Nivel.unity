@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: _vidaMaxima
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 36063357, guid: d94b6c3adedb282409fcb59cb49d45bb, type: 3}
+      propertyPath: "_da\xF1oPorDisparo"
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 36063363, guid: d94b6c3adedb282409fcb59cb49d45bb, type: 3}
       propertyPath: joystickRotacion
       value: 
@@ -142,6 +146,10 @@ PrefabInstance:
       propertyPath: joystickMovimiento
       value: 
       objectReference: {fileID: 2929252284442058453}
+    - target: {fileID: 1762018173025169312, guid: d94b6c3adedb282409fcb59cb49d45bb, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 1762018173025169312, guid: d94b6c3adedb282409fcb59cb49d45bb, type: 3}
       propertyPath: m_Name
       value: MainPlayer
@@ -6367,6 +6375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _btnAttack: {fileID: 878406287}
+  _scoreTXT: {fileID: 1419693454}
 --- !u!4 &1045032428 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4261933636434198, guid: 20b83b6c7039f5d47beac9ffafe09d6e, type: 3}
@@ -11060,7 +11069,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 785206004, guid: 2a9106324ce96bc488eef0ed99b96df2, type: 3}
       propertyPath: _vidaMaxima
-      value: 100
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 785206004, guid: 2a9106324ce96bc488eef0ed99b96df2, type: 3}
+      propertyPath: _puntosAlMorir
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3266591964514598369, guid: 2a9106324ce96bc488eef0ed99b96df2, type: 3}
       propertyPath: m_RootOrder
@@ -11106,6 +11119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3266591964514598370, guid: 2a9106324ce96bc488eef0ed99b96df2, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3266591964514598370, guid: 2a9106324ce96bc488eef0ed99b96df2, type: 3}
       propertyPath: m_Name
       value: EnemyZombie
