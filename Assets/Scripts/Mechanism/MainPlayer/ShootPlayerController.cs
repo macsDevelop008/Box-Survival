@@ -21,7 +21,7 @@ public class ShootPlayerController : MonoBehaviour
     float _timer; //Contador tiempo entre disparos
     Ray _shootRay; //Rayo del disparo
     RaycastHit _hitShoot; //Almacena el objeto collisionado
-    int _shootleableMask; //Mascara objetivo para el disparo
+    int _shootleableMask_1, _shootleableMask_2; //Mascara objetivo para el disparo
 
     private void Awake()
     {
@@ -30,7 +30,9 @@ public class ShootPlayerController : MonoBehaviour
 
     private void Start()
     {
-        _shootleableMask = LayerMask.GetMask("Enemy");
+        _shootleableMask_1 = LayerMask.GetMask("Enemy");
+        _shootleableMask_2 = LayerMask.GetMask("Obstaculo");
+
         _tiempoEntreDisparos = PlayerManager._shared.TiempoEntreDisparos;
     }
 
@@ -66,9 +68,10 @@ public class ShootPlayerController : MonoBehaviour
         _shootRay.direction = _objectShoot.transform.forward;
 
         //Si el rayó chocó con algun objeto con esta mascara
-        if (Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask))
+        if (Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_1) ||
+            Physics.Raycast(_shootRay, out _hitShoot, _rangoDisparo, _shootleableMask_2))
         {
-            //bajarle vida al enemigo, animacion, etc
+            //Verificar si es un enemigo layer y bajarle vida, animacion, etc
             
             //Ajusta tamaño del lineRender con la posicion que chocó
             _lineRederShoot.SetPosition(1, _hitShoot.point);

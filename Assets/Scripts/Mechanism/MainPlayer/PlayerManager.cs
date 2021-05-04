@@ -16,6 +16,9 @@ public class PlayerManager : MonoBehaviour
     public Animator _animator { get; set; }
 
 
+    [Header("Vida")]
+    [SerializeField] float _vidaMaxima;
+
     [Header("Movimiento")]
     [SerializeField] float _velocidadMovimiento;
 
@@ -33,6 +36,10 @@ public class PlayerManager : MonoBehaviour
     [Header("Calculo Movimiento")]
     [SerializeField] float _restriccionMovimiendoDistancia;
     [SerializeField] string _restriccionMovimiendoTagString;
+
+
+    //Vida
+    public float VidaMaxima { get { return _vidaMaxima; } set { _vidaMaxima = value; } }
 
 
     //Movimiento
