@@ -51,6 +51,7 @@ public class EnemyHealtController : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
+        EnemiesManager._shared.EliminarZombie(this.gameObject);
         Destroy(this.gameObject);
     }
 

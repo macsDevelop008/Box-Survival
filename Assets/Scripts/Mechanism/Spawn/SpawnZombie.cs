@@ -19,8 +19,9 @@ public class SpawnZombie : MonoBehaviour
 
     private void Update()
     {
-        //print(Random.Range(0, 2));
-        if (GameManager._shared.EstadoJuego == EstadoJuego.InGame)
+        if (GameManager._shared.EstadoJuego == EstadoJuego.InGame 
+                  && EnemiesManager._shared.TamañoListaZombies() <= 
+                                                        EnemiesManager._shared.MaximoNumZombiePermitido())
         {
             _tiempoContador += Time.deltaTime;
 
@@ -37,6 +38,7 @@ public class SpawnZombie : MonoBehaviour
     {
         GameObject zombie = Instantiate(_prefabsZombies[Random.Range(0, _prefabsZombies.Length)]
                                         , this.gameObject.transform);
+        EnemiesManager._shared.AñadirZombie(zombie);
     }
 
     float GetNuevoTiempoRandom() 

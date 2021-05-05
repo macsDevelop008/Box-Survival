@@ -8,12 +8,20 @@ public class HUDEventos : MonoBehaviour
 {
     public static HUDEventos _shared;
 
+    [Header("BOTON ATACAR")]
+    //Boton atacar
     int _contadorAttack;
     [SerializeField] Button _btnAttack;
     ColorBlock _colorBlockAttack;
 
+    [Header("VENTANA GAMEOVER")]
+    //Ventana GameOver
+    [SerializeField] Text _scoreActual, _scoreMaxPersonal, _logroEntrarTop;
+
+    
     //Score
     float ContadorScore { get; set; }
+    [Header("SCORE")]
     [SerializeField] TextMeshProUGUI _scoreTXT;
 
 
@@ -40,8 +48,12 @@ public class HUDEventos : MonoBehaviour
 
     public void Score(float n) 
     {
+        //HUD
         ContadorScore += n;
         _scoreTXT.text = ContadorScore.ToString();
+
+        //Enviar al PersistenciaPersonal
+        PersistenciaPersonal._shared.ModificarScorePersonalPersistencia(ContadorScore);
     }
 
     public void Attack() 
@@ -72,5 +84,28 @@ public class HUDEventos : MonoBehaviour
         PlayerManager._shared.Attack = false;
         AnimatorPlayerController._shared.AnimatorAttack(false);
         _colorBlockAttack.normalColor = new Color(255.0f, 255.0f, 255.0f);
+    }
+
+    //-------------
+
+    public void GameOverTextos()
+    {
+        _scoreActual.text = ContadorScore.ToString();
+        _scoreMaxPersonal.text = PersistenciaPersonal._shared.
+                                        DarScorePersonalPersistencia().ToString();
+
+        //Logró entrar o no al top 10
+        //_logroEntrarTop.text = ""
+    }
+
+    //------------
+    public void PanelGameOver_Reset() 
+    {
+
+    }
+
+    public void PanelGameOver_BackToMenu()
+    {
+
     }
 }

@@ -55,7 +55,8 @@ public class GameManager : MonoBehaviour
         //HUD GameOver
         _hudGameOver.SetActive(true);
 
-        //Calcular score para puntuacion local
+        //Calcular score y demas textos en ventana del gameOver
+        HUDEventos._shared.GameOverTextos();
 
         //Calcular score para puntuacion glonal (si hay internet)
     }

@@ -21,10 +21,8 @@ public class EnemyMoveController : MonoBehaviour
             if (this.GetComponent<EnemyController>().Estado == EstadoEnemigo.LIFE) 
             {
                 Move();
-            }
-            
+            }            
         }
-
     }
 
     public void Move()
