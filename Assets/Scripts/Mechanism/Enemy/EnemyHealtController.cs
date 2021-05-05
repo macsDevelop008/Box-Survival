@@ -29,6 +29,8 @@ public class EnemyHealtController : MonoBehaviour
     {
         this.GetComponent<EnemyController>().Estado = EstadoEnemigo.DIE;
 
+        this.GetComponent<Rigidbody>().velocity = Vector3.zero;
+
         this.GetComponent<Collider>().enabled = false;
 
         //Sangre particulas
@@ -46,12 +48,7 @@ public class EnemyHealtController : MonoBehaviour
     IEnumerator RutinaDead()
     {
         this.GetComponent<AnimatorEnemyController>().DeadAnimator();
-        yield return new WaitForSeconds(1.5f);
 
-        this.transform.position = Vector3.MoveTowards(
-            this.transform.position
-            , new Vector3(this.transform.position.x, this.transform.position.y - 25.0f, this.transform.position.z)
-            , 5.0f);
         yield return new WaitForSeconds(1.5f);
 
         Destroy(this.gameObject);
