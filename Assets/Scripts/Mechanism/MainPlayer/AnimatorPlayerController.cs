@@ -28,8 +28,17 @@ public class AnimatorPlayerController : MonoBehaviour
 
     public void AnimatorMove()
     {
-        _valorX = InputPlayerController._shared.joystickHorizontal;
-        _valorZ = InputPlayerController._shared.joystickVertical;
+        if (GameManager._shared.PlataformaSeleccionada == Plataforma.MOVIL)
+        {
+            _valorX = InputPlayerController._shared.joystickHorizontal;
+            _valorZ = InputPlayerController._shared.joystickVertical;
+        } else
+        if (GameManager._shared.PlataformaSeleccionada == Plataforma.ESCRITORIO)
+        {
+            _valorX = InputPlayerController._shared.horizontal;
+            _valorZ = InputPlayerController._shared.vertical;
+        }
+
 
         _animator.SetFloat("Run_X", _valorX);
         _animator.SetFloat("Run_Y", _valorZ);

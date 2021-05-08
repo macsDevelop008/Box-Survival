@@ -85,7 +85,7 @@ Material:
     - _GradientEnabled: 0
     - _GradientSize: 10
     - _LightContribution: 1
-    - _LightFalloffSize: 0.718
+    - _LightFalloffSize: 0.603
     - _LightmapDirectionPitch: 0
     - _LightmapDirectionYaw: 0
     - _OverrideLightmapDir: 0

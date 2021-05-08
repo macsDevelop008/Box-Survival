@@ -8,7 +8,8 @@ public class GUIManager : MonoBehaviour
 {
     [SerializeField] Text _scorePersonalTXT;
 
-    [SerializeField] GameObject _panelCargando;
+    [SerializeField] GameObject _panelCargando, _panelLogIn, 
+        _panelCreateAccount, _panelTablaPuntos;
 
     private void Start()
     {
@@ -25,5 +26,24 @@ public class GUIManager : MonoBehaviour
     {
         _panelCargando.SetActive(true);
         SceneManager.LoadScene("01_Nivel");
+    }
+
+    //Eventos Boton Iniciar Cuenta
+    public void PanelIniciarCuenta()
+    {
+
+    }
+
+
+    //Eventos Boton Crear cuenta
+    public void PanelCrearCuenta() 
+    {
+
+    }
+
+    //Eventos Boton Tabla
+    public void PanelTablaMejoresPuntos()
+    {
+
     }
 }

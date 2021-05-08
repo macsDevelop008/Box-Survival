@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class HUDEventos : MonoBehaviour
@@ -18,7 +19,9 @@ public class HUDEventos : MonoBehaviour
     //Ventana GameOver
     [SerializeField] Text _scoreActual, _scoreMaxPersonal, _logroEntrarTop;
 
-    
+    [Header("VENTANA SETTINGS")]
+    [SerializeField] GameObject _panelSettings;
+
     //Score
     float ContadorScore { get; set; }
     [Header("SCORE")]
@@ -101,11 +104,29 @@ public class HUDEventos : MonoBehaviour
     //------------
     public void PanelGameOver_Reset() 
     {
-
+        SceneManager.LoadScene("01_Nivel");
     }
 
     public void PanelGameOver_BackToMenu()
     {
+        SceneManager.LoadScene("00_GUI");
+    }
 
+    //------------
+    public void Settings() 
+    {
+        _panelSettings.SetActive(true);
+        Time.timeScale = 0.0f;
+    }
+
+    public void SettingsBackToMenu()
+    {
+        SceneManager.LoadScene("00_GUI");
+    }
+
+    public void SettingsResume()
+    {
+        _panelSettings.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 }
