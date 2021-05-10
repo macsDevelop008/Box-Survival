@@ -14,6 +14,7 @@ public class DBManager : MonoBehaviour
     MongoClient client;
     IMongoDatabase database;
     IMongoCollection<CuentaUsuario> coleccion;
+    List<CuentaUsuario> cuentasyContraseña;
 
     private void Awake()
     {
@@ -23,6 +24,11 @@ public class DBManager : MonoBehaviour
     private void Start()
     {
         Inicializar();
+        //ModificarScore("123");
+        //ObtenerCuentaUsuarioPorNombreCuenta("asd");
+        //print(ObtenerCuentaUsuarioPorNombreCuenta("ejemplo@gmail.com").score);
+        //TopMejoresScore();
+        //CrearCuentaConfirmada(new CuentaUsuario("123123123", "q123weqwe", "0"));
     }
 
     void Inicializar() 
@@ -48,13 +54,115 @@ public class DBManager : MonoBehaviour
         }
     }
 
-    public void CrearCuenta(CuentaUsuario pCuentaUsuario) 
+    public int CrearCuenta(CuentaUsuario pCuentaUsuario) 
+    {
+        if (VerificarEstructuraCuenta(pCuentaUsuario.cuenta))
+        {
+            if (VerificarExistenciaCuenta(pCuentaUsuario.cuenta))
+            {
+                if (VerificarContraseñaValida(pCuentaUsuario.contrasenia))
+                {
+                    //Crear cuenta
+                    CrearCuentaConfirmada(pCuentaUsuario);
+                    return 0;
+                }
+                else 
+                {
+                    //Contraseña no valida
+                    return 1;
+                }
+            }
+            else 
+            {
+                //La cuenta ya existe
+                return 2;
+            }
+        }
+        else 
+        {
+            //Estructura de la cuenta no valida
+            return 3;
+
+        }
+    }
+
+    //----
+
+    public void ModificarScore(string pScore)
+    {
+        string cuentaActual_Id = PersistenciaCuentaIniciada._shared.CuentaActualIniciada;
+        //string cuentaActual_Id = "ejemplo@gmail.com";
+
+        string filter = "{ 'cuenta' :" + " " + "'" + cuentaActual_Id + "'" + "}";
+        string paramUpdate = "{$set: { 'score':'" + pScore + "' } }";
+
+        var collec = database.GetCollection<BsonDocument>("CUENTAS");
+
+        BsonDocument filterDoc = BsonDocument.Parse(filter);
+        BsonDocument docuUpdate = BsonDocument.Parse(paramUpdate);
+
+        collec.UpdateOne(filterDoc, docuUpdate);
+
+    }
+
+    public bool IniciarSesion(string pCuenta, string pContrasenia)
+    {
+        CuentaUsuario cuentaUsuario = ObtenerCuentaUsuarioPorNombreCuenta(pCuenta);
+
+        if (cuentaUsuario != null
+                && cuentaUsuario.cuenta.Equals(pCuenta)
+                    && cuentaUsuario.contrasenia.Equals(pContrasenia))
+        {
+            PersistenciaCuentaIniciada._shared.CuentaActualIniciada = cuentaUsuario.cuenta;
+            return true;
+        }
+        else
+        {
+            //Datos incorrectos
+            //Ventana cuanta o contraseña no validos
+            return false;
+        }
+    }
+
+    public CuentaUsuario[] TopMejoresScore() 
     {
 
+        CuentaUsuario[] array = ObtenerListadoInformacionCuentas().ToArray();
+        CuentaUsuario temporal;
+
+        for (int i = 1; i < array.Length; i++) 
+        {
+            for (int j = array.Length - 1; j >= i; j--)
+            {
+                if (Int32.Parse(array[j].score)  < Int32.Parse(array[j-1].score)) 
+                {
+                    temporal = array[j];
+                    array[j] = array[j - 1];
+                    array[j - 1] = temporal;
+                }
+            }
+        }
+
+        List<CuentaUsuario> listResult = new List<CuentaUsuario>();
+        for (int k = 1; k <= array.Length && k <= 10; k++) 
+        {
+            listResult.Add(array[array.Length - k]);
+        }
+
+        //Prueba
+        /*CuentaUsuario[] prueba = listResult.ToArray();
+        for (int l = 0; l < listResult.ToArray().Length; l++) 
+        {
+            print(prueba[l].score);
+        }*/
+
+        
+        return listResult.ToArray();
     }
 
     void CrearCuentaConfirmada(CuentaUsuario pCuentaUsuario) 
     {
+        
         try
         {
             //Si hay conexion a internet
@@ -63,6 +171,10 @@ public class DBManager : MonoBehaviour
                 //Insertar registro.
                 coleccion.InsertOne(pCuentaUsuario);
             }
+            else
+            {
+                //No hay internet
+            }
         }
         catch (System.Exception e)
         {
@@ -70,21 +182,58 @@ public class DBManager : MonoBehaviour
         }
     }
 
-    public bool VerificarExistenciaCuenta(string pCuenta) 
+    bool VerificarExistenciaCuenta(string pCuenta) 
     {
-        return false;
+        CuentaUsuario[] array = ObtenerListadoInformacionCuentas().ToArray();
+
+        for (int i = 0; i < array.Length; i++) 
+        {
+            if (array[i].cuenta.Equals(pCuenta)) 
+            {
+                return !true;
+            }
+        }
+
+        return !false;
     }
 
-    //Si es @gmail.com - @hotmail.com - @yahoo.com
-    public bool VerificarEstructuraCuenta(string pCuenta) 
+    //Si es de minimo 5 caracterizticas
+    bool VerificarEstructuraCuenta(string pCuenta) 
     {
-        return false;
+        if (pCuenta.Length >= 5)
+        {
+            return true;
+        }
+        else 
+        {
+           return false;
+        }
     }
 
     //Minimo 6 caracteres - Maximo 20
-    public bool VerificarContraseñaValida(string pContraseña) 
+    bool VerificarContraseñaValida(string pContraseña) 
     {
-        return true;
+        if (pContraseña.Length >= 6 && pContraseña.Length <= 20)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
+    //-----
+    List<CuentaUsuario> ObtenerListadoInformacionCuentas() 
+    {
+        cuentasyContraseña = new List<CuentaUsuario>();
+        cuentasyContraseña = coleccion.Find(d => true).ToList();
 
+        return cuentasyContraseña;
+    }
+    //----
+    CuentaUsuario ObtenerCuentaUsuarioPorNombreCuenta(string pCuenta) 
+    {
+        CuentaUsuario cuentaUsuario = coleccion.Find(a => a.cuenta.Equals(pCuenta)).FirstOrDefault();
+        return cuentaUsuario;
+    }
 }
