@@ -28,7 +28,7 @@ public class DBManager : MonoBehaviour
         //ObtenerCuentaUsuarioPorNombreCuenta("asd");
         //print(ObtenerCuentaUsuarioPorNombreCuenta("ejemplo@gmail.com").score);
         //TopMejoresScore();
-        //CrearCuentaConfirmada(new CuentaUsuario("123123123", "q123weqwe", "0"));
+        //print(CrearCuenta(new CuentaUsuario("123123123", "q123weqwe", "0")));
     }
 
     void Inicializar() 

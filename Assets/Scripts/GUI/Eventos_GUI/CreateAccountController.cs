@@ -27,22 +27,24 @@ public class CreateAccountController : MonoBehaviour
             {
                 //Nuevo Usuario
                 CuentaUsuario cuentaUsuario = new CuentaUsuario(_textUsuario.text, _textContraseña.text, "0");
+                int result = DBManager._shared.CrearCuenta(cuentaUsuario);
 
-                if (DBManager._shared.CrearCuenta(cuentaUsuario) == 3)
+                if (result == 3)
                 {
+                    
                     VentanaAvisoController._shared.Ventana("Tu cuenta debe tener al menos 5 caracteres");
                 }
                 else
-                if (DBManager._shared.CrearCuenta(cuentaUsuario) == 2)
+                if (result == 2)
                 {
                     VentanaAvisoController._shared.Ventana("La cuenta ya existe");
                 }
                 else
-                if (DBManager._shared.CrearCuenta(cuentaUsuario) == 1)
+                if (result == 1)
                 {
                     VentanaAvisoController._shared.Ventana("Tu contraseña debe tener de 6 a 20 caracteres");
                 }
-                else //0
+                else if(result == 0)
                 {
                     VentanaAvisoController._shared.Ventana("Tu Cuenta fue creada con exito");
                 }
