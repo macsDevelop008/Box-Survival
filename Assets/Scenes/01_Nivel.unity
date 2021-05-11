@@ -13593,7 +13593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hudGameOver: {fileID: 2035400734}
-  _plataforma: 0
+  _plataforma: 1
   _estadoJuego: 0
 --- !u!1001 &2096785990
 PrefabInstance:

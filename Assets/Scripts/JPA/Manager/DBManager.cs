@@ -88,21 +88,23 @@ public class DBManager : MonoBehaviour
 
     //----
 
-    public void ModificarScore(string pScore)
+    public void ModificarScoreMaximoCuenta(string pScore)
     {
         string cuentaActual_Id = PersistenciaCuentaIniciada._shared.CuentaActualIniciada;
         //string cuentaActual_Id = "ejemplo@gmail.com";
 
-        string filter = "{ 'cuenta' :" + " " + "'" + cuentaActual_Id + "'" + "}";
-        string paramUpdate = "{$set: { 'score':'" + pScore + "' } }";
+        if (cuentaActual_Id != "" && PermitirModificacionScore(cuentaActual_Id, pScore)) 
+        {
+            string filter = "{ 'cuenta' :" + " " + "'" + cuentaActual_Id + "'" + "}";
+            string paramUpdate = "{$set: { 'score':'" + pScore + "' } }";
 
-        var collec = database.GetCollection<BsonDocument>("CUENTAS");
+            var collec = database.GetCollection<BsonDocument>("CUENTAS");
 
-        BsonDocument filterDoc = BsonDocument.Parse(filter);
-        BsonDocument docuUpdate = BsonDocument.Parse(paramUpdate);
+            BsonDocument filterDoc = BsonDocument.Parse(filter);
+            BsonDocument docuUpdate = BsonDocument.Parse(paramUpdate);
 
-        collec.UpdateOne(filterDoc, docuUpdate);
-
+            collec.UpdateOne(filterDoc, docuUpdate);
+        }
     }
 
     public bool IniciarSesion(string pCuenta, string pContrasenia)
@@ -235,5 +237,19 @@ public class DBManager : MonoBehaviour
     {
         CuentaUsuario cuentaUsuario = coleccion.Find(a => a.cuenta.Equals(pCuenta)).FirstOrDefault();
         return cuentaUsuario;
+    }
+
+    bool PermitirModificacionScore(string pCuenta, string pScore) 
+    {
+        CuentaUsuario usuarioActual = ObtenerCuentaUsuarioPorNombreCuenta(pCuenta);
+
+        if (Int64.Parse(pScore) > Int64.Parse(usuarioActual.score))
+        {
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
     }
 }

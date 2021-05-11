@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
 
             StartCoroutine(RutinaGameOver());
 
+
+
         }
     }
 
@@ -59,5 +61,7 @@ public class GameManager : MonoBehaviour
         HUDEventos._shared.GameOverTextos();
 
         //Calcular score para puntuacion glonal (si hay internet)
+        string scoreFinal = HUDEventos._shared.DarScoreFinal().ToString();
+        DBManager._shared.ModificarScoreMaximoCuenta(scoreFinal);
     }
 }

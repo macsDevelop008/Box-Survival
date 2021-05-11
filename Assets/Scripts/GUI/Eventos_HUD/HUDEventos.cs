@@ -59,6 +59,11 @@ public class HUDEventos : MonoBehaviour
         PersistenciaPersonal._shared.ModificarScorePersonalPersistencia(ContadorScore);
     }
 
+    public float DarScoreFinal() 
+    {
+        return ContadorScore;
+    }
+
     public void Attack() 
     {
         if (GameManager._shared.EstadoJuego == EstadoJuego.InGame) 

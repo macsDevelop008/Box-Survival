@@ -10,6 +10,7 @@ public class GUIManager : MonoBehaviour
 
     [SerializeField] GameObject _panelCargando, _panelLogIn, 
         _panelCreateAccount, _panelTablaPuntos;
+    [SerializeField] GameObject _ventanaConfirmarCerrarSesion;
 
     private void Start()
     {
@@ -31,19 +32,38 @@ public class GUIManager : MonoBehaviour
     //Eventos Boton Iniciar Cuenta
     public void PanelIniciarCuenta()
     {
-
+        _panelLogIn.SetActive(true);
     }
 
 
     //Eventos Boton Crear cuenta
     public void PanelCrearCuenta() 
     {
-
+        _panelCreateAccount.SetActive(true);
     }
+
 
     //Eventos Boton Tabla
     public void PanelTablaMejoresPuntos()
     {
+        _panelTablaPuntos.SetActive(true);
+    }
 
+    //Eventos Boton Cerrar Sesion
+    public void CerrarSesion() 
+    {
+        //PersistenciaCuentaIniciada._shared.CuentaActualIniciada = "";
+        _ventanaConfirmarCerrarSesion.SetActive(true);
+
+    }
+    public void ConfirmarCerrarSesion() 
+    {
+        PersistenciaCuentaIniciada._shared.CuentaActualIniciada = "";
+        _ventanaConfirmarCerrarSesion.SetActive(false);
+    }
+
+    public void CancelarCerrarSesion()
+    {
+        _ventanaConfirmarCerrarSesion.SetActive(false);
     }
 }
